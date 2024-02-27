@@ -1,0 +1,64 @@
+* {
+    font-family: "Roboto";
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    background-color: rgb(201, 196, 196);
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.area-correlati p {
+    margin-top: 0;
+}
+
+.area-correlati h4 {
+    margin: 0;
+}
+
+nav, footer {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+body {
+    margin: 0;
+}
+
+footer {
+    padding: 5px;
+}
+
+footer a {
+    color: rgb(59, 206, 255);
+}
+
+header, main {
+    padding: 5px;
+}
+
+header {
+    padding-bottom: 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
